@@ -4,8 +4,7 @@ function unkown_option() {
 echo -e "\nUnknown K8S node type: $1 \n"; 
 echo "--------------------------------------------------------------------------"
 echo "    Preffered Ubuntu 20.04_LTS or above with bellow requirements"
-echo "------------------------------ Master setup ------------------------------"
-echo "    Minimum requirement - 2GB RAM & 2Core CPU" 
+echo "------------------------------ Master setup ------------------------------" 
 echo "    k8s_install.sh master"
 echo "------------------------------ Worker setup ------------------------------"
 echo "    Minimum requirement - Any"
