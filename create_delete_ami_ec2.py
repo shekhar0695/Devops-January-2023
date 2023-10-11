@@ -60,7 +60,7 @@ def delete_all_ami():
 # ec2_instance tag to which AMI need to be created 
 ec2_tag = [{
     'Name':'tag:Name', 
-    'Values': ['Jenkins_master']}]
+    'Values': ['Jenkins']}]
 
 # Name of the ami to be created 
 # If multiple ec2_instances found, then ami_name will be suffixed with _1, _2 .....
